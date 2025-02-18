@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">pagani auto 4k wallpapers</string>
+    <string name="bannerAd">5721640477874908_6736745546364391</string>
+    <string name="Interstitial_id">5721640477874908_6736746173030995</string>
+    <string name="Video_id">5721640477874908_6736746866364259</string>
+
+
+    <string name="n1">No Internet</string>
+    <string name="n2">Check your Internet connection and try again</string>
+    <string name="n3">Please turn on</string>
+    <string name="n4">You have turned on the airplane mode.</string>
+    <string name="n5">Please turn off</string>
+    <string name="n6">Airplane mode</string>
+    <string name="w2">Share App</string>
+    <string name="w3">More Apps</string>
+    <string name="w4">Exit</string>
+    <string name="d1">Main Menu</string>
+    <string name="developer_search" translatable="false">market://search?q=pub:wall4k</string>
+    <string name="app_link" translatable="false">https://play.google.com/store/apps/details?id=com.tari9bro.wallpapers</string>
+    <string name="developer_id" translatable="false">http://play.google.com/store/apps/developer?id=wall4k</string>
+    <string name="share_dialog_msg" translatable="true">install this amazing app</string>
+    <string name="share_dialog_title" translatable="true">Share…</string>
+    <string name="exit_dialog_title" translatable="true">Confirm Exit</string>
+    <string name="exit_dialog_msg" translatable="true">are you sure you want to exit the application</string>
+    <string name="yes" translatable="true">yes</string>
+    <string name="no" translatable="true">no</string>
+    <string name="cancel_exit" translatable="true">exit canceled</string>
+    <string name="rewarded_dialog" translatable="true">this is a premium wallpaper.do you like to watch an ad to unlock it</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

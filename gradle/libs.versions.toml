@@ -1,0 +1,65 @@
+[versions]
+activityCompose = "1.9.0"
+agp = "8.4.1"
+audienceNetworkSdk = "6.15.0"
+composeBom = "2023.08.00"
+composeBomVersion = "2024.05.00"
+constraintlayout = "2.1.4"
+core = "1.10.3"
+glide = "4.16.0"
+gson = "2.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.7.0"
+kotlinBom = "2.0.0"
+lifecycleProcess = "2.8.1"
+material = "1.12.0"
+material3 = "1.2.1"
+materialVersion = "1.9.0"
+oopsnointernet = "2.0.0"
+playServicesAdsIdentifier = "18.1.0"
+recyclerviewAnimators = "4.0.2"
+uiTestJunit4 = "1.6.0-alpha05"
+uiTooling = "1.6.0-alpha05"
+workRuntime = "2.8.1"
+workRuntimeVersion = "2.9.0"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+
+[libraries]
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+androidx-compose-bom-v20230800 = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycleProcess" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleProcess" }
+androidx-material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+androidx-ui = { module = "androidx.compose.ui:ui", version.ref = "uiTestJunit4" }
+androidx-ui-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref = "uiTestJunit4" }
+androidx-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "uiTestJunit4" }
+androidx-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "uiTestJunit4" }
+androidx-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "uiTestJunit4" }
+androidx-work-runtime-v281 = { module = "androidx.work:work-runtime", version.ref = "workRuntime" }
+audience-network-sdk = { module = "com.facebook.android:audience-network-sdk", version.ref = "audienceNetworkSdk" }
+core = { module = "com.google.android.play:core", version.ref = "core" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "kotlinBom" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+oopsnointernet = { module = "org.imaginativeworld.oopsnointernet:oopsnointernet", version.ref = "oopsnointernet" }
+play-services-ads-identifier = { module = "com.google.android.gms:play-services-ads-identifier", version.ref = "playServicesAdsIdentifier" }
+recyclerview-animators = { module = "jp.wasabeef:recyclerview-animators", version.ref = "recyclerviewAnimators" }
+ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiTooling" }
+work-runtime = { module = "androidx.work:work-runtime", version.ref = "workRuntimeVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
